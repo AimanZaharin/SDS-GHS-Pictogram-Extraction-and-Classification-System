@@ -1,0 +1,1 @@
+# sds-pictogram-extraction-classification
