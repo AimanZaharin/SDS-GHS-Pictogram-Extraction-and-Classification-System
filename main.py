@@ -76,9 +76,9 @@ if submit_button:
     for img_file in os.listdir(extracted_images_folder):
         if img_file.endswith((".png", ".jpg")):
             img_path = os.path.join(extracted_images_folder, img_file)
-            result = classify_pictogram(img_path)  # ✅ fixed typo here
+            result = classify_pictogram(img_path) 
 
-            col1, col2 = st.columns([0.5, 2])  # You can tweak the ratio
+            col1, col2 = st.columns([0.5, 2]) 
 
             with col1:
                 st.image(img_path, width=150)
