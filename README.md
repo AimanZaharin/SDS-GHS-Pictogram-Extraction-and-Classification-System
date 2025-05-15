@@ -87,6 +87,7 @@ python -m venv venv
 .\venv\Scripts\activate.bat
 ```
 3. Install the project dependencies:
+
 ``
 pip install -r requirements.txt
 ``
