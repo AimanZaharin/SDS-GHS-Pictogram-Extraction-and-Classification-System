@@ -31,3 +31,83 @@ This system aims to improve efficiency and accuracy in **safety compliance workf
 ---
 
 ## 📁 Repository Structure
+
+``
+├── training/
+│ ├── training_yolo/ # YOLOv8 training configs and scripts
+│ │ ├── README.md
+│ │ └── model_training_yolo.ipynb
+│ ├── training_cnn/ # CNN model training and dataset
+│ │ ├── model_training_cnn.ipynb
+│ │ └── sds_pictogram_dataset/
+├── .streamlit/ # Streamlit app config
+│ └── config.toml
+├── .gitignore
+├── main.py # Streamlit UI interface code
+├── pictogram_extraction.py # Backend: PDF to image conversion, extraction, classification
+├── requirements.txt # Project dependencies
+└── README.md # ← You are here
+``
+
+---
+
+## 🗂️ Dataset and Privacy
+
+- The dataset used contains sensitive information and **is not included** in this repository.
+- Dataset structure and configuration files are provided to enable training with your own data.
+
+---
+
+## 📦 Installation
+
+1. Clone this repository:
+
+```bash
+git clone <your-repo-url>
+cd <repo-folder>
+```
+
+2. Create and activate a Python virtual environment (recommended):
+
+- On macOS/Linux:
+``
+python3 -m venv venv
+source venv/bin/activate
+``
+
+- On Windows (PowerShell):
+```powershell
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+```
+
+- On Windows (cmd):
+```cmd
+python -m venv venv
+.\venv\Scripts\activate.bat
+```
+3. Install the project dependencies:
+``
+pip install -r requirements.txt
+``
+
+## 🏁 Usage
+
+- To train or fine-tune the YOLOv8 detection model, refer to training/yolo/README.md.
+- To train or evaluate the CNN classifier, refer to training/cnn/README.md.
+- To run the Streamlit web interface:
+``
+streamlit run main.py
+``
+
+## 📌 Key GHS Pictogram Classes
+
+- Explosive
+- Flammable
+- Oxidizer
+- Gas under pressure
+- Corrosive
+- Toxic
+- Irritant
+- Health Hazard
+- Environmental Hazard
