@@ -6,7 +6,7 @@ __pycache__/
 *.pyc
 
 # Ignore virtual environments (if created locally)
-venv/
+venv-sds/
 env/
 picto_venv/
 

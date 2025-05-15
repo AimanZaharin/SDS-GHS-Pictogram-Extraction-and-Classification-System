@@ -71,19 +71,19 @@ cd SDS-GHS-Pictogram-Extraction-and-Classification-System
 
 - On macOS/Linux:
 ``
-python3 -m venv venv
+python3 -m venv venv-sds
 source venv/bin/activate
 ``
 
 - On Windows (PowerShell):
 ```powershell
-python -m venv venv
+python -m venv venv-sds
 .\venv\Scripts\Activate.ps1
 ```
 
 - On Windows (cmd):
 ```cmd
-python -m venv venv
+python -m venv venv-sds
 .\venv\Scripts\activate.bat
 ```
 3. Install the project dependencies:
@@ -94,8 +94,8 @@ pip install -r requirements.txt
 
 ## 🏁 Usage
 
-- To train or fine-tune the YOLOv8 detection model, refer to training/yolo/README.md.
-- To train or evaluate the CNN classifier, refer to training/cnn/README.md.
+- To train or fine-tune the YOLOv8 detection model, refer to creation of models notebook - training\training_yolo\README.md. 
+- To train or evaluate the CNN classifier, refer to creation of models notebook - training\training_cnn\model_training_cnn.ipynb.
 - To run the Streamlit web interface:
 ``
 streamlit run main.py

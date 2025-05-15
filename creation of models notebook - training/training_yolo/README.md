@@ -33,9 +33,9 @@ You can use tools like:
 
 ---
 
-## ⚙️ `yolov8_config.yaml`
+## ⚙️ `.yaml`
 
-The file `yolov8_config.yaml` defines your dataset structure and classes for YOLOv8 training.
+The file `.yaml` defines your dataset structure and classes for YOLOv8 training.
 
 ```yaml
 path: ../data/custom_dataset        # Root directory of the dataset
@@ -74,5 +74,6 @@ model.train(data="datasets\dataset.yaml", epochs=50, imgsz=640, batch=16, augmen
 ## 📌 Notes
 
 - You can use any YOLOv8 model variant: yolov8n.pt, yolov8s.pt, yolov8m.pt, etc.
-- Training logs, metrics, and weights will be saved to the runs/ directory.
+- The training logs, metrics, and weights will be saved to the runs/ directory.
+- The final fine-tuned YOLOv8 model "best.pt" will be saved in the "creation of models notebook - training\training_yolo\runs\detect\train2\weights\best.pt"
 - Use tensorboard or YOLOv8’s built-in visualization tools to monitor training.
