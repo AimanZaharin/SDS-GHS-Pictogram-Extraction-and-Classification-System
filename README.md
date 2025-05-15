@@ -32,7 +32,7 @@ This system aims to improve efficiency and accuracy in **safety compliance workf
 
 ## 📁 Repository Structure
 
-``
+```yaml
 ├── training/
 │ ├── training_yolo/ # YOLOv8 training configs and scripts
 │ │ ├── README.md
@@ -47,7 +47,7 @@ This system aims to improve efficiency and accuracy in **safety compliance workf
 ├── pictogram_extraction.py # Backend: PDF to image conversion, extraction, classification
 ├── requirements.txt # Project dependencies
 └── README.md # ← You are here
-``
+```
 
 ---
 
