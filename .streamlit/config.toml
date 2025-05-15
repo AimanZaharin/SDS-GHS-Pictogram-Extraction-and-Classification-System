@@ -1,0 +1,8 @@
+[theme]
+base="dark"
+primaryColor="#white"
+textColor="#red"
+
+[server]
+runOnSave = true
+maxUploadSize = 10
