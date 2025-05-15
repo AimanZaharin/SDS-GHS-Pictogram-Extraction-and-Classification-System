@@ -63,8 +63,8 @@ This system aims to improve efficiency and accuracy in **safety compliance workf
 1. Clone this repository:
 
 ```bash
-git clone <your-repo-url>
-cd <repo-folder>
+git clone https://github.com/AimanZaharin/SDS-GHS-Pictogram-Extraction-and-Classification-System.git
+cd SDS-GHS-Pictogram-Extraction-and-Classification-System
 ```
 
 2. Create and activate a Python virtual environment (recommended):
