@@ -9,14 +9,14 @@ This folder contains the configuration and scripts related to training a YOLOv8 
 Due to the sensitive nature of the original dataset, the actual images and annotations are **not included** in this repository. However, to train your own YOLOv8 model, you must follow the directory format shown below:
 
 ```yaml
-data/
-└── custom_dataset/
+datasets/
+└── dataset.yaml
 ├── images/
 │ ├── train/ # Training images
 │ └── val/ # Validation images
 └── labels/
-├── train/ # Corresponding YOLO-format .txt label files
-└── val/
+  ├── train/ # Corresponding YOLO-format .txt label files
+  └── val/
 ```
 
 Each label file should follow YOLO format:
