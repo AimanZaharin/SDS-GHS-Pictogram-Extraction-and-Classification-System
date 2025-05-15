@@ -1,0 +1,5 @@
+This unknown folder consists of random objects that got extracted randomly. 
+
+This "unknown" class is used as the 10th class so that if any random objects got extracted by the YOLOv8 model, the CNN model will classify it as "unknown", and will be filtered out.
+
+I cannot upload the original folder as it contains sensitive information.
