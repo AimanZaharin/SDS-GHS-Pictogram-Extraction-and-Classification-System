@@ -1,0 +1,5 @@
+path: .../training_yolo/datasets  # Root dataset directory
+train: images/train  # Relative path to training images
+val: images/val  # Relative path to validation images
+nc: 9  # Number of classes
+names: ["compressed_gas", "corrosion", "environment", "explosive", "flammable", "health_hazard", "irritation", "oxidizers", "toxic"]  # Class names
