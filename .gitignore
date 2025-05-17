@@ -9,6 +9,7 @@ __pycache__/
 venv-sds/
 env/
 picto_venv/
+picto-venv/
 
 # Ignore VS Code settings (optional)
 .vscode/
