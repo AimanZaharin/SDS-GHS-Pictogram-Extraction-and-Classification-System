@@ -4,7 +4,7 @@ This project develops a **computer vision pipeline** to automatically **extract*
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 - Utilizes **YOLOv8** and **OpenCV** to detect and extract pictograms from complex PDF documents with high accuracy.
 - Designed and trained a **Convolutional Neural Network (CNN)** using TensorFlow/Keras to classify extracted pictograms into their respective GHS categories.
@@ -14,7 +14,7 @@ This system aims to improve efficiency and accuracy in **safety compliance workf
 
 ---
 
-## 🧠 Approach
+## Approach
 
 1. **PDF Processing**  
    Converts SDS PDFs into images using PyMuPDF (`fitz`).
@@ -30,7 +30,7 @@ This system aims to improve efficiency and accuracy in **safety compliance workf
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```yaml
 ├── training/
@@ -51,14 +51,14 @@ This system aims to improve efficiency and accuracy in **safety compliance workf
 
 ---
 
-## 🗂️ Dataset and Privacy
+## Dataset and Privacy
 
 - The dataset used contains sensitive information and **is not included** in this repository.
 - Dataset structure and configuration files are provided to enable training with your own data.
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. Clone this repository:
 
@@ -92,7 +92,7 @@ python -m venv venv-sds
 pip install -r requirements.txt
 ``
 
-## 🏁 Usage
+## Usage
 
 - To train or fine-tune the YOLOv8 detection model, refer to "creation of models notebook - training\training_yolo\README.md". 
 - To train or evaluate the CNN classifier, refer to "creation of models notebook - training\training_cnn\model_training_cnn".ipynb.
@@ -101,7 +101,7 @@ pip install -r requirements.txt
 streamlit run main.py
 ``
 
-## 📌 Key GHS Pictogram Classes
+## Key GHS Pictogram Classes
 
 - Explosive
 - Flammable
